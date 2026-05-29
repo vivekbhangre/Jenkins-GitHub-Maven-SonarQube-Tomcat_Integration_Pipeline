@@ -1,8 +1,3 @@
-Got it! Keeping everything in a single, comprehensive `README.md` makes it much easier for anyone visiting your repository to understand the project from scratch to final deployment.
-
-Here is the fully combined and formatted `README.md` containing both the pipeline documentation and the complete infrastructure setup guide. You can copy this directly into your repository.
-
-```markdown
 # Jenkins Declarative CI/CD Pipeline Project
 
 This repository demonstrates an automated Continuous Integration and Continuous Deployment (CI/CD) workflow using a **Jenkins Declarative Pipeline**. The pipeline automatically fetches code from GitHub, builds and packages a Java web application, performs static code analysis with SonarQube, and deploys the artifact onto an Apache Tomcat server.
