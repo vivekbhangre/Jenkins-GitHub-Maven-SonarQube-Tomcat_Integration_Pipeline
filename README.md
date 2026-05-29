@@ -1,3 +1,8 @@
+Got it! Keeping everything in a single, comprehensive `README.md` makes it much easier for anyone visiting your repository to understand the project from scratch to final deployment.
+
+Here is the fully combined and formatted `README.md` containing both the pipeline documentation and the complete infrastructure setup guide. You can copy this directly into your repository.
+
+```markdown
 # Jenkins Declarative CI/CD Pipeline Project
 
 This repository demonstrates an automated Continuous Integration and Continuous Deployment (CI/CD) workflow using a **Jenkins Declarative Pipeline**. The pipeline automatically fetches code from GitHub, builds and packages a Java web application, performs static code analysis with SonarQube, and deploys the artifact onto an Apache Tomcat server.
@@ -19,7 +24,7 @@ To run this pipeline, you need to set up the following infrastructure (Jenkins, 
 
 ### 1. Prerequisites (Install Java)
 Java is required for all three services. Run this on all servers:
-cmd
+```bash
 sudo apt update -y
 sudo apt install openjdk-17-jdk -y
 java -version
